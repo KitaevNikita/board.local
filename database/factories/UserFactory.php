@@ -18,7 +18,7 @@ class UserFactory extends Factory
             'name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
             'email_verified_at' => now(),
-            'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
+            'password' => bcrypt('password'), // password
             'remember_token' => Str::random(10),
         ];
     }
@@ -36,4 +36,20 @@ class UserFactory extends Factory
             ];
         });
     }
+    /**
+     * Состояние для учетной записи пользователя
+     *
+     * @return \Illuminate\Database\Eloquent\Factories\Factory
+     */
+    public function user()
+    {
+        return $this->state(function (array $attributes) {
+            return [
+                'name' => 'user',
+                'email' => 'user@test.ru',
+                'password' => bcrypt('123456'),
+            ];
+        });
+    }
+
 }
