@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Schema;
 class CreateBoardsTable extends Migration
 {
     /**
-     * Run the migrations.
+     * Запуск миграций
      *
      * @return void
      */
@@ -25,7 +25,7 @@ class CreateBoardsTable extends Migration
     }
 
     /**
-     * Reverse the migrations.
+     * Резервные миграции
      *
      * @return void
      */

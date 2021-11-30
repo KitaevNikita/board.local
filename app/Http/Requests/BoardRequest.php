@@ -9,7 +9,7 @@ use Illuminate\Foundation\Http\FormRequest;
 class BoardRequest extends FormRequest
 {
     /**
-     * Determine if the user is authorized to make this request.
+     * Определение прав на запрос.
      *
      * @return bool
      */
@@ -26,7 +26,7 @@ class BoardRequest extends FormRequest
 
 
     /**
-     * Get the validation rules that apply to the request.
+     * Получите правила проверки, которые применяются к запросу.
      *
      * @return array
      */

@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Factories\Factory;
 class BoardFactory extends Factory
 {
     /**
-     * Define the model's default state.
+     * Определите состояние модели по умолчанию.
      *
      * @return array
      */

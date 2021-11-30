@@ -7,12 +7,13 @@
             @endcomponent
         @endforeach
     @endif
+
 <div class="form-group">
   <label for="advertisement">Название обьявления</label>
   <input type="text" class="form-control" id="advertisement" name="advertisement" value="{{ $board->advertisement ?? old('advertisement')}}" placeholder="Введите название обьявление" required>
 </div>
 <div class="form-group">
-  <label for="user_name">Имя пользователя</label>
+  <label for="user_name">Имя автора</label>
   <input type="text" class="form-control" id="user_name" name="user_name" value="{{ $board->user_name ?? old('user_name')}}" placeholder="Введите имя пользователя" required>
 </div>
 <div class="form-group">

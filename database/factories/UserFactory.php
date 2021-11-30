@@ -8,7 +8,7 @@ use Illuminate\Support\Str;
 class UserFactory extends Factory
 {
     /**
-     * Define the model's default state.
+     * Определение изначального состояния модели.
      *
      * @return array
      */
@@ -24,7 +24,7 @@ class UserFactory extends Factory
     }
 
     /**
-     * Indicate that the model's email address should be unverified.
+     * Укажите, что адрес электронной почты модели должен быть непроверенным.
      *
      * @return \Illuminate\Database\Eloquent\Factories\Factory
      */

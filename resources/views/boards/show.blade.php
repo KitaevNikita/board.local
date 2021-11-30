@@ -9,7 +9,7 @@
   <ul class="list-group list-group-flush">
     <li class="list-group-item"><strong>Название Объявления:</strong> {{ $board->advertisement }}</li>
     <li class="list-group-item"><strong>Номер телефона:</strong> {{ $board->phone }}</li>
-    <li class="list-group-item"><strong>Имя пользователя:</strong> {{ $board->user_name }}</li>
+    <li class="list-group-item"><strong>Имя автора:</strong> {{ $board->user_name }}</li>
     <li class="list-group-item"><strong>Приоритет:</strong> {{ $board->category }}</li>
     <li class="list-group-item"><strong>Дата создания:</strong> {{ $board->created_at }}</li>
     <li class="list-group-item"><strong>Дата редактирования:</strong> {{ $board->updated_at }}</li>

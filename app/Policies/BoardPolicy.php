@@ -11,7 +11,7 @@ class BoardPolicy
     use HandlesAuthorization;
 
     /**
-     * Determine whether the user can view the model.
+     * Определите, может ли пользователь просматривать модель.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Board  $board
@@ -25,7 +25,7 @@ class BoardPolicy
         return false;
     }
     /**
-     * Determine whether the user can update the model.
+     * Определите, может ли пользователь редактировать модель.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Board  $board
@@ -40,7 +40,7 @@ class BoardPolicy
     }
 
     /**
-     * Determine whether the user can delete the model.
+     * Определите, может ли пользователь удалять модель.
      *
      * @param  \App\Models\User  $user
      * @param  \App\Models\Board  $board

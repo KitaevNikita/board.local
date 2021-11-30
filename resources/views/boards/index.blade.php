@@ -66,6 +66,7 @@
     </table>
   </div>
 </div>
+
 @if($boards->total() > $boards->count())
     {{ $boards->links() }}
 @endif

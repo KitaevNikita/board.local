@@ -9,7 +9,7 @@ use Illuminate\Http\Request;
 class IndexController extends Controller
 {
     /**
-     * Display a listing of the resource.
+     * Отображение списка ресурсов
      *
      * @return \Illuminate\Http\Response
      */

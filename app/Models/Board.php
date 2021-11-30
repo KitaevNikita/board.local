@@ -28,7 +28,7 @@ class Board extends Model
         return $this->belongsTo(User::class);
     }
     /**
-     * Apply the scope to a given Eloquent query builder.
+     * Примените область действия к данному построителю красноречивых запросов.
      *
      * @param  \Illuminate\Database\Eloquent\Builder  $builder
      * @param  \Illuminate\Database\Eloquent\Model  $model
